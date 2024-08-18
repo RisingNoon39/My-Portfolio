@@ -1,1 +1,62 @@
-h1 { color : brown }
+* {
+font-family : monospace;
+}
+
+body {
+background-color : aqua;
+}
+
+
+h1 {
+background-color : bisque;
+ }
+
+#a1>p {
+color : blue;
+}
+
+.highlight{
+background-color : yellow;
+font-weight : bolder ;
+}
+
+
+.highlight:hover{
+background-color : bisque;
+}
+
+#hobbies:hover{
+background-color : bisque;
+}
+
+#firstname:hover{
+background-color : bisque;
+}
+
+#lastname:hover{
+background-color : bisque;
+}
+
+#dob:hover{
+background-color : bisque;
+}
+
+#email:hover{
+background-color : bisque;
+}
+
+#agegroup:hover{
+background-color : bisque;
+}
+
+#aboutyou:hover{
+background-color : bisque;
+}
+
+#submit:hover{
+background-color : bisque;
+}
+
+#reset:hover{
+background-color : bisque;
+}

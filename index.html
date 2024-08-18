@@ -3,6 +3,7 @@
 	<title> My Personal Portfolio </title>
 
 	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -31,7 +32,7 @@
 <section id="details">
 
 	<center>
-	<h3> Enter your details here </h3>
+	<h2> Enter your details here </h2>
 	</center>
 	
 	<form action ="">
@@ -58,12 +59,13 @@
 		<label for="color"> Favorite colour </label> 
 		<input id="color" type="color"><br><br>
 
-		<label for="aboutyou">Tell us something about yourself <br>
-		<textarea name="aboutyou" id="aboutyourself" rows="3" cols="50"> </textarea>
+		<label for="aboutyou">Tell us something about yourself <br></label>
+		<textarea name="aboutyou" id="aboutyou" rows="3" cols="50"> </textarea>
+
 		<br><br>
 
-		<input type="reset">
-		<input type="submit">
+		<input type="reset" id="reset">
+		<input type="submit" id="submit">
 
 		
 	</form>
@@ -74,22 +76,22 @@
 <section id="education">
 
 	<center>
-	<h3>My education</h3>
+	<h2>My education</h2>
 	</center>
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum aliquam urna. Fusce eu lacus et lorem semper hendrerit non eget augue. Duis quis turpis arcu. Etiam purus ipsum, dictum ac fringilla eu, volutpat id ligula. Ut semper a massa vel elementum. Curabitur velit nunc, congue vel ultrices quis, convallis eget risus. Suspendisse potenti. Nam sed iaculis ante. Curabitur et odio pulvinar purus bibendum lacinia non vel neque. Aliquam suscipit venenatis metus non ultricies. Pellentesque id turpis non eros blandit porttitor id eget nunc. Nullam nisl justo, condimentum ut rhoncus quis, suscipit in sapien.</p>
 
-	<h4>Primary education</h4>
+	<h3>Primary education</h3>
 
-<article>
+<article id= "a1" class= "article1 highlight" > 
 
 	<p>Praesent non mauris ac dolor sodales feugiat nec ut sapien. Etiam volutpat lorem et auctor laoreet. Sed rutrum, ligula eu tincidunt fringilla, nisi justo condimentum ipsum, in laoreet enim lectus ac erat. Nullam sodales quis arcu id tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 
 </article>
 
-<article>
+	<h3>Secondary education</h3>
 
-	<h4>Secondary education</h4>
+<article id="a2" class="article1 highlight" >
 
 	<p>Nulla vehicula mauris eu massa placerat, eu molestie lectus fringilla. Aenean sagittis id quam condimentum vehicula. Proin viverra nisl neque, vitae malesuada neque fringilla at. Nunc tempor varius elit, a consectetur erat auctor non. Morbi interdum, ligula ut dapibus tincidunt, lacus dolor pretium lacus, sit amet volutpat sem nunc ut velit. Suspendisse potenti. Fusce ornare in risus sed faucibus. In volutpat id arcu ac rutrum. </p><hr>
 
@@ -100,7 +102,7 @@
 <section id="hobbies">
 
 	<center>
-	<h3>My hobbies</h3>
+	<h4>My hobbies</h4>
 	</center>
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum aliquam urna. Fusce eu lacus et lorem semper hendrerit non eget augue. Duis quis turpis arcu. Etiam purus ipsum, dictum ac fringilla eu, volutpat id ligula. </p> 
@@ -122,7 +124,7 @@
 <footer>
 
 	<center>
-	<h3> <u> Contact us </u> </h3>
+	<h4> <u> Contact us </u> </h4>
 	</center>
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum aliquam urna. Fusce eu lacus et lorem semper hendrerit non eget augue. Duis quis turpis arcu. Etiam purus ipsum, dictum ac fringilla eu, volutpat id ligula </p> 
