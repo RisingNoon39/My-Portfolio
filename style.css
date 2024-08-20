@@ -3,13 +3,43 @@ font-family : monospace;
 }
 
 body {
-background-color : aqua;
+background-color : #ecf39e ;
+color : #31572c ;
 }
 
 
 h1 {
-background-color : bisque;
- }
+color : #132a13 ;
+background-color :  #90a955 ;
+padding : 20px 10px 20px ;
+margin : 30px ;
+border-radius : 20px ;
+}
+
+#p1 {
+padding : 20px 15px 20px ;
+margin : 30px ;
+}
+
+a:link, a:visited {
+font-weight : bolder ;
+font-size : 15px ;
+background-color: #90a955 ;
+color: #132a13 ;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+h2 {
+color : #132a13 ;
+background-color :  #90a955 ;
+padding : 20px 10px 20px ;
+margin : 30px ;
+border-radius : 20px ;
+display : block ;
+}
 
 #a1>p {
 color : blue;
